@@ -1,0 +1,38 @@
+.App {
+  background-color: #fefefe;
+  color: #454545;
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 95vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+h2,
+h4 {
+  margin: 0.5rem auto;
+}
+
+.tester {
+  margin-bottom: 1.5rem;
+}
+input {
+  width: 250px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.docs {
+  height: 100%;
+}
+
+.docs > iframe {
+  width: 100%;
+  height: 100%;
+}
